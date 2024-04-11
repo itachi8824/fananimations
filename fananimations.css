@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    margin: 222px;
+    animation: rotate 1s linear infinite;
+}
+.rectangle{
+    width: 213px;
+    height: 41px;
+    background-color: black;
+    /* margin: 20px; */
+     position: absolute;
+
+     left: -194px;
+    top: 35px;
+}
+.two {
+    left: -59px;
+    top: -119px;
+    transform: rotate(90deg);
+}
+.three {
+    left: -50px;
+    top: 157px;
+    transform: rotate(90deg);
+}
+.four {
+    left: 87px;
+    top: 32px;
+}
+@keyframes rotate{
+from{
+    position: absolute;
+    transform: rotate(360deg);
+}
+}
